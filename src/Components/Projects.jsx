@@ -1,5 +1,6 @@
 import React from "react";
 import { PROJECTS } from "../constants";
+import { delay, motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -8,7 +9,12 @@ const Projects = () => {
       <div>
         {PROJECTS.map((items, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: index + 0.5 }}
+              className="w-full lg:w-1/4"
+            >
               <img
                 src={items.image}
                 width={150}
@@ -16,8 +22,13 @@ const Projects = () => {
                 alt="projectimg"
                 className=" rounded my-3"
               />
-            </div>
-            <div className="w-full max-w-xl lg:w-3/4">
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 200 }}
+              transition={{ duration: index + 0.5 }}
+              className="w-full max-w-xl lg:w-3/4"
+            >
               <h6 className="mb-2 font-semibold">{items.title}</h6>
               <p className="mb-4 text-neutral-400">{items.description}</p>
               {items.technologies.map((item, index) => (
@@ -28,7 +39,7 @@ const Projects = () => {
                   {item}
                 </span>
               ))}
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>

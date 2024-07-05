@@ -1,5 +1,6 @@
 import React from "react";
 import { EXPERIENCES } from "./../constants/index";
+import { delay, motion } from "framer-motion";
 
 const experience = () => {
   return (
@@ -10,11 +11,21 @@ const experience = () => {
           return (
             <div key={index} className="mb-8 flex flex-wrap lg:justify-center ">
               <div className="w-full lg:w-1/4">
-                <p className="mb-2 text-sm text-neutral-400">
+                <motion.p
+                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, x: -100 }}
+                  transition={{ duration: index + 0.5 }}
+                  className="mb-2 text-sm text-neutral-400"
+                >
                   {experieince.year}
-                </p>
+                </motion.p>
               </div>
-              <div className=" w-full max-w-xl lg:3/4">
+              <motion.div
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: 200 }}
+                transition={{ duration: index + 0.5 }}
+                className=" w-full max-w-xl lg:3/4"
+              >
                 <h6 className="mb-2 font-semibold">
                   {experieince.role} -{" "}
                   <span className="text-sm text-purple-100">
@@ -32,7 +43,7 @@ const experience = () => {
                     {tech}
                   </span>
                 ))}
-              </div>
+              </motion.div>
             </div>
           );
         })}
