@@ -110,7 +110,7 @@ const contact = () => {
   const handlesubmit = () => {};
   return (
     <>
-      <h3 className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl text-center tracking-tight text-transparent   ">
+      <h3 className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl text-center tracking-tight text-transparent   font-semibold">
         Contact Me
       </h3>
       <div className="xl:mt-12 mt-5 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
