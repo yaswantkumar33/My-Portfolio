@@ -6,6 +6,7 @@ import Techonoliges from "./Components/Techonoliges";
 import Experience from "./Components/experience";
 import Projects from "./Components/Projects";
 import Contact from "./Components/contact";
+import StarsCanvas from "./Components/canvas/Stars";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300  antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -19,7 +20,10 @@ const App = () => {
         <Techonoliges />
         <Experience />
         <Projects />
-        <Contact />
+        <div className=" relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
       </div>
     </div>
   );
