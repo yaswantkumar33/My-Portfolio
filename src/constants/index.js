@@ -3,38 +3,52 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full-stack web developer with a talent for crafting robust and scalable web applications. I have honed my skills in technologies such as React, Node.js, MySQL, PostgreSQL, and Laravel. My goal is to utilize my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full-stack web developer with a talent for crafting robust and scalable web applications. I have honed my skills in technologies such as ReactJs, Node.js, MySQL, PostgreSQL, and Laravel. My goal is to utilize my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a web developer with a BE in Computer Science and Engineering. I love learning new things and have enjoyed playing badminton since childhood. Coding with coffee is my go-to escape when life gets tough. I'm kind and value productivity, appreciating people who, like me, are hungry to grow and succeed in their lives.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2023 Jul - 2023 Nov",
+    role: "Trainne Programmer",
+    company: "Netaxis It Solution",
+    description: `As a trainee programmer, I excelled in HTML, CSS, Bootstrap, JavaScript, AngularJS, PHP, MySQL, and Laravel. After acing 10+ assessments with over 80% scores, I earned my role as a web developer, turning expertise into opportunity.`,
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap", "Angular Js"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 Nov - 2024 Apr",
+    role: "Web Developer",
+    company: "Netaxis It Solution",
+    description: `In my web developer journey, I’ve refined live projects by tackling bugs and errors for a month. Next, I immersed myself in Laravel for two months, crafting seamless API responses and efficient MySQL queries. Recently, I expanded my expertise by creating dynamic web extensions for Chrome, Firefox, and Safari, enhancing browser experiences across the board.`,
+    technologies: [
+      "Javascript",
+      "Jquery",
+      "Nodejs",
+      "PHP",
+      "Mysql",
+      "Laravel",
+      "REST Api",
+    ],
+  },
+];
+export const education = [
+  {
+    year: "2019-2023",
+    Title: "B.E Computer Science And Engineering",
+    University: "Anna University",
+    School: "S.A Engineering College",
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2018-2019",
+    Title: "Class XII",
+    University: "State Board",
+    School: "Ebenezer Marcus Metric Higher Secondary School",
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2017-2018",
+    Title: "Class X",
+    University: "State Board",
+    School: "Ebenezer Marcus Metric Higher Secondary School",
   },
 ];
 

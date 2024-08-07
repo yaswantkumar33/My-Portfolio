@@ -48,6 +48,22 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+            <div class="vwrap my-5 py-0 font-semibold ">
+              <div class="vmove">
+                <div class="vitem bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent  ">
+                  The More You Focused On Time -{" "}
+                </div>
+                <div class="vitem bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent  ">
+                  Past And Future - The More You Miss
+                </div>
+                <div class="vitem bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent  ">
+                  The Now The Most Precious Thing
+                </div>
+                <div class="vitem bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent  ">
+                  There Is...!
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
