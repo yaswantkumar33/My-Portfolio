@@ -46,3 +46,31 @@
 .vmove:hover {
   animation-play-state: paused;
 }
+.hover-this {
+  transition: all 0.1s ease;
+}
+
+.itemhov {
+  display: inline-block !important;
+  /* font-family: "Russo One", sans-serif; */
+  /* font-weight: 400; */
+  color: #fff !important;
+  /* font-size: 36px; */
+  /* text-transform: uppercase; */
+  pointer-event: none !important;
+  transition: transform 0.1s linear !important;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed !important;
+  padding: 0.3rem !important;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  mix-blend-mode: difference !important;
+  transition: transform 0.3s ease;
+}
+
+.hover-this:hover ~ .cursor {
+  transform: translate(-50%, -50%) scale(8) !important;
+}
