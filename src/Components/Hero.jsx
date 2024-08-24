@@ -73,7 +73,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="cursor"></div>
+            <div className="cursor hidden md:block"></div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
