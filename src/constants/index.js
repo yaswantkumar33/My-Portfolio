@@ -9,13 +9,6 @@ export const ABOUT_TEXT = `I am a web developer with a BE in Computer Science an
 
 export const EXPERIENCES = [
   {
-    year: "2023 Jul - 2023 Nov",
-    role: "Trainne Programmer",
-    company: "Netaxis It Solution",
-    description: `As a trainee programmer, I excelled in HTML, CSS, Bootstrap, JavaScript, AngularJS, PHP, MySQL, and Laravel. After acing 10+ assessments with over 80% scores, I earned my role as a web developer, turning expertise into opportunity.`,
-    technologies: ["HTML", "CSS", "Javascript", "Bootstrap", "Angular Js"],
-  },
-  {
     year: "2023 Nov - 2024 Apr",
     role: "Web Developer",
     company: "Netaxis It Solution",
@@ -29,6 +22,13 @@ export const EXPERIENCES = [
       "Laravel",
       "REST Api",
     ],
+  },
+  {
+    year: "2023 Jul - 2023 Nov",
+    role: "Full Stack Trainne Programmer",
+    company: "Netaxis It Solution",
+    description: `As a trainee programmer, I excelled in HTML, CSS, Bootstrap, JavaScript, AngularJS, PHP, MySQL, and Laravel. After acing 10+ assessments with over 80% scores, I earned my role as a web developer, turning expertise into opportunity.`,
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap", "Angular Js"],
   },
 ];
 export const education = [

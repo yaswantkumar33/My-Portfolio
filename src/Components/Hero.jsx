@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "./../constants/index";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/yaswantkumarS.jpg";
 import { motion } from "framer-motion";
 import useHoverAnimation from "./hooks/useHoverAnimation";
 
@@ -83,7 +83,13 @@ const Hero = () => {
             animate="visible"
             className="flex justify-center"
           >
-            <img src={profilePic} alt="" />
+            <img
+              src={profilePic}
+              alt=""
+              className=" rounded-2xl"
+              height={400}
+              width={400}
+            />
           </motion.div>
         </div>
       </div>
