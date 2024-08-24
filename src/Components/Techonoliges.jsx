@@ -16,6 +16,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { VscVscode } from "react-icons/vsc";
 import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 import { animate, delay, motion } from "framer-motion";
 const Techonoliges = () => {
   const iconVarinats = (durataion) => ({
@@ -171,6 +172,14 @@ const Techonoliges = () => {
           className=" rounded-2xl border-4  border-neutral-900 p-4 "
         >
           <FaGitAlt className=" text-7xl text-[#df4c37] transition-all duration-300 group-hover:scale-110 hover:rotate-12" />
+        </motion.div>
+        <motion.div
+          variants={iconVarinats(4)}
+          initial="intital"
+          animate="animate"
+          className=" rounded-2xl border-4  border-neutral-900 p-4 "
+        >
+          <SiPostman className=" text-7xl text-[#df4c37] transition-all duration-300 group-hover:scale-110 hover:rotate-12" />
         </motion.div>
       </div>
     </div>
