@@ -59,17 +59,14 @@ const TiltCard = (props) => {
         >
           <h4>{props.projdetails.title}</h4>
           <p className="gap-4 flex flex-wrap p-3 text-center items-center justify-center">
-            {props.projdetails.technologies.map(
-              (value, index) => (
-                <span
-                  className=" bg-purple-600 text-white p-2 rounded-lg"
-                  key={index}
-                >
-                  {value}
-                </span>
-              )
-              //   console.log(value);
-            )}
+            {props.projdetails.technologies.map((value, index) => (
+              <span
+                className=" bg-purple-600 text-white p-2 rounded-lg"
+                key={index}
+              >
+                {value}
+              </span>
+            ))}
           </p>
           <div className="flex  justify-center gap-5">
             <button className="bg-purple-600 rounded-lg p-2 text-white">
