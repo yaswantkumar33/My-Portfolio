@@ -37,7 +37,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl hover-this"
             >
-              <span className="itemhov">Yaswant Kumar</span>
+              <span className="itemhov">Yaswant Kumar S</span>
             </motion.h1>
             <motion.span
               variants={container(1.2)}
