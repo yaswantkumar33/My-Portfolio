@@ -6,6 +6,7 @@ import {
   useSpring,
 } from "framer-motion";
 import { FiMousePointer } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
 const ROTATION_RANGE = 32.5;
 const HALF_ROTATION_RANGE = 32.5 / 2;
 const TiltCard = (props) => {
@@ -41,7 +42,7 @@ const TiltCard = (props) => {
         transformStyle: "preserve-3d",
         transform,
       }}
-      className="relative h-96 w-72 rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300"
+      className="relative h-96 w-72 rounded-xl bg-gradient-to-br from-indigo-500 to-[#0a0032]"
     >
       <div
         style={{
@@ -50,32 +51,45 @@ const TiltCard = (props) => {
         }}
         className="absolute inset-4 grid place-content-center rounded-xl bg-white shadow-lg"
       >
-        <img src="" alt="" />
+        <div className=" flex justify-center items-center mb-2">
+          <img
+            src={props.projdetails.image}
+            alt=""
+            className=" object-cover border border-purple-500 p-3 rounded-lg"
+            height={100}
+            width={200}
+          />
+        </div>
         <div
           style={{
             transform: "translateZ(50px)",
           }}
-          className="text-center  font-bold text-black"
+          className="text-center flex  flex-col  font-bold text-black p-3 items-center justify-evenly"
         >
-          <h4>{props.projdetails.title}</h4>
-          <p className="gap-4 flex flex-wrap p-3 text-center items-center justify-center">
-            {props.projdetails.technologies.map((value, index) => (
-              <span
-                className=" bg-purple-600 text-white p-2 rounded-lg"
-                key={index}
-              >
-                {value}
-              </span>
-            ))}
+          <h1 className="mt-2 ">{props.projdetails.title}</h1>
+          <p className=" text-[14px]  font-normal">
+            {props.projdetails.description}
           </p>
-          <div className="flex  justify-center gap-5">
-            <button className="bg-purple-600 rounded-lg p-2 text-white">
-              Preview
-            </button>
-            <button className="bg-black text-white rounded-lg p-2">
-              Github
-            </button>
+          <div>
+            <ul className="flex  gap-2 flex-wrap max-w-38 justify-center  text-center ">
+              {props.projdetails.technologies.map((tech, index) =>
+                tech.length > 0 ? (
+                  <li
+                    key={index}
+                    className="text-white  text-center bg-purple-700 p-2 rounded-lg  font-semibold shadow-lg text-[12px]"
+                  >
+                    {tech}
+                  </li>
+                ) : (
+                  " "
+                )
+              )}
+            </ul>
           </div>
+          <a className=" flex justify-center items-center gap-2 mt-3 mb-0 bg-black text-white border rounded-lg p-2 shadow-2xl">
+            <FaGithub />
+            <p>Github</p>
+          </a>
         </div>
       </div>
     </motion.div>

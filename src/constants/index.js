@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import nikeclone from "../assets/projects/nikeclone.jpg";
+import schlresultsystem from "../assets/projects/schlresultsystem.jpg";
+import calender from "../assets/projects/calender.jpg";
+import gitprofile from "../assets/projects/gitprofile.jpg";
 
 export const HERO_CONTENT = `I am a passionate full-stack web developer with a talent for crafting robust and scalable web applications. I have honed my skills in technologies such as ReactJs, Node.js, MySQL, PostgreSQL, and Laravel. My goal is to utilize my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -54,32 +54,41 @@ export const education = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "Nike Landing Page",
+    image: nikeclone,
+    description: "Front - End ",
+    technologies: ["HTML", "CSS", "Tailwind", "Javascript", "React"],
+    Link: "https://yaswantkumar33.github.io/Nike-Clone/",
+    Glink: "https://github.com/yaswantkumar33/Nike-Clone",
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    title: "School Result System",
+    image: schlresultsystem,
+    description: "Full Stack Laravel  ",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Js",
+      "Nodejs",
+      "MySQL",
+      "Lravel",
+    ],
+    Link: "https://github.com/yaswantkumar33/SchoolResultManagment",
+    Glink: "https://github.com/yaswantkumar33/SchoolResultManagment",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    title: "Basic Event Calender",
+    image: calender,
+    description: "Full Stack Larvael",
+    technologies: ["HTML/Css", "Js/Ajax", "Laravel Full Calender"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    title: "For More Information",
+    image: gitprofile,
+    technologies: [" ", " "],
+    description: "Do Check My Github Profile",
+    Link: "https://github.com/yaswantkumar33",
   },
 ];
 

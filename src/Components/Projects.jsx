@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className=" border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">Projects</h1>
-      <div className=" flex gap-10 justify-center max-md:flex-col max-md:items-center max-lg:flex-wrap max-xl:flex-wrap ">
+      {/* <div className=" flex gap-10 justify-center max-md:flex-col max-md:items-center max-lg:flex-wrap max-xl:flex-wrap ">
         {PROJECTS.map((items, index) => (
           <span key={index}>
             <Tiltcard projdetails={items} />
@@ -46,6 +46,10 @@ const Projects = () => {
           //   </motion.div>
           // </div>
         ))}
+      </div> */}
+
+      <div className="h-96 flex justify-center items-center">
+        <h1 className="text-7xl">Coming Soon.........!</h1>
       </div>
     </div>
   );
