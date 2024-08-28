@@ -4,7 +4,10 @@ import profilePic from "../assets/yaswantkumarS.jpg";
 import { motion } from "framer-motion";
 import useHoverAnimation from "./hooks/useHoverAnimation";
 
+// Default values shown
+
 const Hero = () => {
+  
   const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
     visible: {

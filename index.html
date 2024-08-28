@@ -10,12 +10,25 @@
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root" class="hidden"></div>
   <div class="w-100 bg-transparent mt-10 text-white flex justify-around  items-center py-5 gap-10">
     <p>@2024 Yaswant <span class="text-purple-400">Kumar</span> S </p>
     <p class="text-gray-400">All Rights Reserved ! </p>
   </div>
+  <div id="initial_div">
+    <p class="text-2xl text-white py-3">On The Way...!</p>
+    <l-trefoil size="40" stroke="4" stroke-length="0.15" bg-opacity="0.1" speed="1.4" color="white"></l-trefoil>
+  </div>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Hide the loading screen
+      document.getElementById('initial_div').style.display = 'none';
+
+      // Show the main content
+      document.getElementById('root').style.display = 'block';
+    });
+  </script>
 </body>
 
 </html>

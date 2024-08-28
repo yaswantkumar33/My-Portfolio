@@ -74,3 +74,18 @@
 .hover-this:hover ~ .cursor {
   transform: translate(-50%, -50%) scale(8) !important;
 }
+
+#initial_div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(circle at TOP, #3b0b78, #0c031a, #000000);
+}

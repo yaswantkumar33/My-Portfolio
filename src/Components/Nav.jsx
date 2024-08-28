@@ -4,7 +4,9 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 // import { FaSquareXTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { trefoil } from "ldrs";
 const Nav = () => {
+  trefoil.register();
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shirnk-0 items-center">
