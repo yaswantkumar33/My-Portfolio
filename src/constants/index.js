@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a web developer with a BE in Computer Science an
 export const EXPERIENCES = [
   {
     year: "2023 Nov - 2024 Apr",
-    role: "Web Developer",
+    role: "Trannie Web Developer",
     company: "Netaxis It Solution",
     description: `In my web developer journey, I’ve refined live projects by tackling bugs and errors for a month. Next, I immersed myself in Laravel for two months, crafting seamless API responses and efficient MySQL queries. Recently, I expanded my expertise by creating dynamic web extensions for Chrome, Firefox, and Safari, enhancing browser experiences across the board.`,
     technologies: [
@@ -25,7 +25,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2023 Jul - 2023 Nov",
-    role: "Full Stack Trainne Programmer",
+    role: "Trainne Programmer",
     company: "Netaxis It Solution",
     description: `As a trainee programmer, I excelled in HTML, CSS, Bootstrap, JavaScript, AngularJS, PHP, MySQL, and Laravel. After acing 10+ assessments with over 80% scores, I earned my role as a web developer, turning expertise into opportunity.`,
     technologies: ["HTML", "CSS", "Javascript", "Bootstrap", "Angular Js"],
