@@ -2,8 +2,10 @@ import React from "react";
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { delay, motion } from "framer-motion";
+import resume from "../assets/portfolioresume.pdf";
 // import portfolioresume from "";
 const About = () => {
+  console.log(resume);
   return (
     <div className="border-bottom border-neutral-900 pb-4 ">
       <h1 className="my-20 text-center text-4xl">
@@ -47,7 +49,7 @@ const About = () => {
               className="bg-transparent text-white py-3 px-8 outline-none font-bold border border-purple-600 shadow-md shadow-purple-500 hover:text-purple-500 rounded-xl w-fit"
               type="submit"
             >
-              <a href="./src/assets/docs/portfolioresume.pdf" target="_blank">
+              <a href={resume} target="_blank">
                 Resume !
               </a>
             </button>
